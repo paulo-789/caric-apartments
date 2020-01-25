@@ -1,0 +1,82 @@
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px;
+    background-color:cadetblue;
+
+
+    
+}
+.container{
+    widows: 70%;
+    margin:auto;
+    overflow-x: hidden; 
+    overflow-y:scroll;
+
+}
+h1{
+    background-color: coral;
+    color:whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+#benefits{
+    text-align: left;
+}
+nav{
+    margin:0px;
+    border: black solid;
+    background-color: black; 
+    font-size: 30px;
+    text-decoration: none;
+    border-top: 0;
+    justify-content: space-around;
+}
+ul>li{
+    display: inline-block;
+    color:white;
+    text-align: left;    
+}
+nav>ul>li>a{
+    padding: right 20leftpx
+
+}
+nav>ul>li>a:hover{
+    box-shadow: blue;
+    color:white;
+    text-decoration:none;
+    background-color: darkgrey
+}
+#about{
+    text-align: center;
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.781), rgba(0, 0, 0, 0.788)), url("./image/images010.jpeg");
+    opacity:1;
+    background-repeat:no-repeat;
+    color :white;
+    background-size: 1500px 500px
+}
+#benefits{
+    background-color: black;
+    color:white;
+    font-size: 25px;
+    
+}
+#properties{
+    background-color: skyblue;
+}
+#contacts{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+table{
+    text-align: center;
+
+    width: 1500px;
+}
+h2{
+    text-align: center;
+}
+
+
